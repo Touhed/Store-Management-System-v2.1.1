@@ -1,0 +1,38 @@
+﻿@model Store_Management_System.Areas.Payment.Models.Payment;
+@{
+    ViewData["Title"] = "Payment";
+}
+
+<h1 style="text-align:center">Payment Information</h1>
+
+<div class="container">
+    <table border="1" class="table table-bordered" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td style="text-align:center; font-weight: bold;">Payment Id</td>
+                <td style="text-align:center; font-weight: bold;">Date</td>
+                <td style="text-align:center; font-weight: bold;">Payment Type</td>
+                <td style="text-align:center; font-weight: bold;">No of Items</td>
+                <td style="text-align:center; font-weight: bold;">Vat (%)</td>
+                <td style="text-align:center; font-weight: bold;">Vat Amount</td>
+                <td style="text-align:center; font-weight: bold;">Total Cost</td>
+                <td style="text-align:center; font-weight: bold;">P_Id</td>
+                <td style="text-align:center; font-weight: bold;">E_Id</td>
+                <td style="text-align:center; font-weight: bold;">C_Id</td>
+            </tr>
+        </thead>
+
+        <tr>
+            <td style="text-align:center">@Model.Payment_Id</td>
+            <td style="text-align:center">@Model.Date</td>
+            <td style="text-align:center">@Model.Payment_Type</td>
+            <td style="text-align:center">@Model.No_Of_Items</td>
+            <td style="text-align:center">@Model.Percentage_Of_Vat</td>
+            <td style="text-align:center">@Model.Amount_Of_Vat</td>
+            <td style="text-align:center">@Model.Total_Cost</td>
+            <td style="text-align:center">@Model.P_Id</td>
+            <td style="text-align:center">@Model.E_Id</td>
+            <td style="text-align:center">@Model.C_Id</td>
+        </tr>
+    </table>
+</div>

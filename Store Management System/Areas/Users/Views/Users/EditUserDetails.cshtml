@@ -1,0 +1,59 @@
+﻿@model Store_Management_System.Areas.Users.Models.Users
+@{
+    ViewBag.Title = "Edit User Details";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>S_M_S</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: darkgray;align-content: center;">
+    <div class="container" style="width: 40%;">
+        <form asp-area="Users" asp-controller="Users" asp-action="EditUserDetails" method="post">
+            <div asp-validation-summary="All"></div>
+            <h2 style="text-align: center;">Edit User Details</h2>
+            <hr />
+            <div class="form-group">
+                <label asp-for="LoginId"></label>
+                <input asp-for="LoginId" class="form-control" readonly />
+                <span asp-validation-for="LoginId"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserId"></label>
+                <input asp-for="UserId" class="form-control" placeholder="Enter user id"/>
+                <span asp-validation-for="UserId"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserType"></label>
+                <input asp-for="UserType" class="form-control" placeholder="Enter user type"/>
+                <span asp-validation-for="UserType"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" class="form-control" placeholder="Enter user first name"/>
+                <span asp-validation-for="FirstName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" class="form-control" placeholder="Enter user last name"/>
+                <span asp-validation-for="LastName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" placeholder="Enter user email"/>
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" type="password"/>
+                <span asp-validation-for="Password"></span>
+            </div>
+
+            <input type="submit" class="btn-primary" value="Update User" />
+        </form>
+    </div>
+</body>
+</html>

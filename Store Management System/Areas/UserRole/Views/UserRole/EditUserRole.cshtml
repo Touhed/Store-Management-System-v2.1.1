@@ -1,0 +1,35 @@
+﻿@model Store_Management_System.Areas.UserRole.Models.UserRole
+@{
+    ViewData["Title"] = "Edit UserRole";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>S_M_S</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: darkgray;align-content: center;">
+
+    <div class="container" style="width: 40%;">
+        <form asp-area="UserRole" asp-controller="UserRole" asp-action="EditUserRole" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <h2 style="text-align: center;">Edit UserRole Information</h2>
+            <hr />
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" readonly/>
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserType" class="control-label"></label>
+                <input asp-for="UserType" class="form-control" />
+                <span asp-validation-for="UserType" class="text-danger"></span>
+            </div>
+
+            <input type="submit" class="btn-primary" value="Update" />
+        </form>
+    </div>
+</body>
+</html>

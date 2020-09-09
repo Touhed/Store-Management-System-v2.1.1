@@ -1,0 +1,64 @@
+﻿@model List<Store_Management_System.Areas.Payment.ViewModel.PaymentVM>;
+@{
+    ViewData["Title"] = "Payment";
+}
+
+<h1 style="text-align:center">Payment Receipt</h1>
+
+<div class="container" style="width: 20%;">
+    <div class="form-group">
+        <div class="input-group-addon">
+            <form asp-area="Payment" asp-controller="Payment" asp-action="Search">
+                <input placeholder="Search By Id" class="form-control" name="id" />
+                <a asp-area="Payment" asp-controller="Payment" asp-action="Search" asp-route-id="id"><input type="submit" value="Search" /></a>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" style="width: 100%">
+    <div class="row">
+        <div class="col-xl-12">
+            <table border="1" class="table table-bordered" cellpadding="1" cellspacing="1">
+                <thead>
+                    <tr>
+                        <td style="text-align:center; font-weight: bold;">Product Name</td>
+                        <td style="text-align:center; font-weight: bold;">Brand Name</td>
+                        <td style="text-align:center; font-weight: bold;">Product Quantity</td>
+                        <td style="text-align:center; font-weight: bold;">Product Price</td>
+                        <td style="text-align:center; font-weight: bold;">Employee Name</td>
+                        <td style="text-align:center; font-weight: bold;">Customer Name</td>
+                        <td style="text-align:center; font-weight: bold;">Date</td>
+                        <td style="text-align:center; font-weight: bold;">Payment Type</td>
+                        <td style="text-align:center; font-weight: bold;">No of Items</td>
+                        <td style="text-align:center; font-weight: bold;">Vat (%)</td>
+                        <td style="text-align:center; font-weight: bold;">Vat Amount</td>
+                        <td style="text-align:center; font-weight: bold;">Total Cost</td>
+                        @*<td style="text-align:center; font-weight: bold;">Action</td>*@
+                    </tr>
+                </thead>
+                @foreach (var f in Model)
+                {
+                <tr>
+                    <td style="text-align:center">@f.Product_Name</td>
+                    <td style="text-align:center">@f.Brand_Name</td>
+                    <td style="text-align:center">@f.Product_Quantity</td>
+                    <td style="text-align:center">@f.Product_Price</td>
+                    <td style="text-align:center">@f.Employee_Name</td>
+                    <td style="text-align:center">@f.Customer_Name</td>
+                    <td style="text-align:center">@f.Date</td>
+                    <td style="text-align:center">@f.Payment_Type</td>
+                    <td style="text-align:center">@f.No_Of_Items</td>
+                    <td style="text-align:center">@f.Percentage_Of_Vat</td>
+                    <td style="text-align:center">@f.Amount_Of_Vat</td>
+                    <td style="text-align:center">@f.Total_Cost</td>
+                    @*<td style="text-align:center">
+                <a asp-action="PaymentDetails" asp-route-id="@f.Payment_Id" class="btn btn-primary">Details</a>
+                <a asp-action="EditPayment" asp-route-id="@f.Payment_Id" class="btn btn-primary">Edit</a>
+                <a asp-action="DeletePayment" asp-route-id="@f.Payment_Id" class="btn btn-primary">Delete</a>
+            </td>*@
+                </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

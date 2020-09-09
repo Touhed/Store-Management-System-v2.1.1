@@ -1,0 +1,29 @@
+﻿@model Store_Management_System.Areas.Employee.Models.Employee
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Employee";
+}
+<h1 style="text-align: center;font-family: 'Times New Roman', Times, serif">WELCOME TO EMPLOYEE PAGE</h1>
+<br />
+<br />
+
+<p>
+    <h2 style="text-align: center;font-family: 'Times New Roman', Times, serif">
+        If You have Any Account Then You Can See The Employee Information  Otherwise You Have To Contact With The Administration.<br>
+        Thank You.
+    </h2>
+</p>
+<div class="container-fluid" style="text-align: center;font-family: 'Times New Roman', Times, serif">
+    <div class="row">
+        <div class="col-lg-6">
+            <form asp-area="Employee" asp-controller="Employee" asp-action="AddNewEmployee" method="get">
+                <button class="btn btn-primary btn-lg">Add New Employee</button>
+            </form>
+        </div>
+        <div class="col-lg-6">
+            <form asp-area="Employee" asp-controller="Employee" asp-action="ViewEmployeeList" method="get">
+                <button class="btn btn-primary btn-lg">Employee List</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "_LayoutNew";
+}
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">
+                    Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+
+        </ul>
+        <!-- Links -->
+
+        <form class="form-inline">
+            <div class="md-form my-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+        </form>
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+
+@*<ul class="navbar-nav flex-grow-1">
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Users" asp-controller="Users" asp-action="AdminPanel">Admin Panel</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Users" asp-controller="Users" asp-action="Login">Login</a>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">User<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a asp-area="Users" asp-controller="Users" asp-action="CreateUserAccount">Create User Account</a></li>
+            <li><a asp-area="Users" asp-controller="Users" asp-action="ViewUserList">User List</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Admin<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a asp-area="Admin" asp-controller="Admin" asp-action="AddNewAdmin">Add New Admin</a></li>
+            <li><a asp-area="Admin" asp-controller="Admin" asp-action="ViewAdminList">Admin List</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Employee<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a asp-area="Employee" asp-controller="Employee" asp-action="EmployeePanel">Employee Panel</a></li>
+            <li><a asp-area="Employee" asp-controller="Employee" asp-action="AddNewEmployee">Add Employee</a></li>
+            <li><a asp-area="Employee" asp-controller="Employee" asp-action="ViewEmployeeList">Employee List</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Customer<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a asp-area="Customer" asp-controller="Customer" asp-action="AddNewCustomer">Add Customer</a></li>
+            <li><a asp-area="Customer" asp-controller="Customer" asp-action="ViewCustomerList">Customer List</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Product<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a asp-area="Product" asp-controller="Product" asp-action="AddNewProduct">Add Product</a></li>
+            <li><a asp-area="Product" asp-controller="Product" asp-action="ViewProductList">Product List</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">Payment<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a asp-area="Payment" asp-controller="Payment" asp-action="AddNewPayment">Add Payment</a></li>
+            <li><a asp-area="Payment" asp-controller="Payment" asp-action="ViewPaymentList">Payment List</a></li>
+        </ul>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+    </li>
+</ul>*@

@@ -1,0 +1,42 @@
+﻿@model List<Store_Management_System.Areas.Customer.Models.Customer>;
+@{
+    //Layout = "_LayoutForCustomer";
+    ViewData["Title"] = "Customer";
+}
+
+<h1 style="text-align:center">Customer Information</h1>
+
+<div class="container" style="width: 20%;">
+    <div class="form-group">
+        <div class="input-group-addon">
+            <form asp-area="Customer" asp-controller="Customer" asp-action="Search">
+                <input placeholder="Search By Id" class="form-control" name="id" />
+                <a asp-area="Customer" asp-controller="Customer" asp-action="Search" asp-route-id="id"><input type="submit" value="Search" /></a>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <table border="1" class="table table-bordered" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td style="text-align:center; font-weight: bold;">Customer Id</td>
+                <td style="text-align:center; font-weight: bold;">Name</td>
+                <td style="text-align:center; font-weight: bold;">Address</td>
+                <td style="text-align:center; font-weight: bold;">Contact</td>
+                <td style="text-align:center; font-weight: bold;">Email</td>
+                <td style="text-align:center; font-weight: bold;">Action</td>
+            </tr>
+        </thead>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <td style="text-align:center">@f.Customer_Id</td>
+                <td style="text-align:center">@f.Customer_Name</td>
+                <td style="text-align:center">@f.Customer_Address</td>
+                <td style="text-align:center">@f.Customer_Contact</td>
+                <td style="text-align:center">@f.Customer_Email</td>
+            </tr>
+        }
+    </table>
+</div>

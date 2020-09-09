@@ -1,0 +1,30 @@
+﻿@model Store_Management_System.Areas.UserRole.Models.UserRole
+@{
+    ViewData["Title"] = "Add New UserRole";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>S_M_S</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: darkgray;align-content: center;">
+
+    <div class="container" style="width: 40%;">
+        <form asp-area="UserRole" asp-controller="UserRole" asp-action="AddNewUserRole" method="post">
+            <div asp-validation-summary="All"></div>
+            <h2 style="text-align: center;">Add User Role</h2>
+            <hr />
+            <div class="form-group">
+                <label asp-for="UserType"></label>
+                <input asp-for="UserType" class="form-control" />
+                <span asp-validation-for="UserType"></span>
+            </div>
+
+            <input type="submit" class="btn-primary" value="Add" />
+        </form>
+    </div>
+</body>
+</html>

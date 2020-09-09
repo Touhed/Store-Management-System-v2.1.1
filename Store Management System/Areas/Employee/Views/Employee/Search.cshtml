@@ -1,0 +1,29 @@
+﻿@model Store_Management_System.Areas.Employee.Models.Employee;
+@{
+    //Layout = "_LayoutForEmployee";
+    ViewData["Title"] = "Employee";
+}
+
+<h1 style="text-align:center">Employee Information</h1>
+
+<div class="container">
+    <table border="1" class="table table-bordered" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td style="text-align:center; font-weight: bold;">Employee Id</td>
+                <td style="text-align:center; font-weight: bold;">Name</td>
+                <td style="text-align:center; font-weight: bold;">Address</td>
+                <td style="text-align:center; font-weight: bold;">Contact</td>
+                <td style="text-align:center; font-weight: bold;">Email</td>
+            </tr>
+        </thead>
+
+        <tr>
+            <td style="text-align:center">@Model.Employee_Id</td>
+            <td style="text-align:center">@Model.Employee_Name</td>
+            <td style="text-align:center">@Model.Employee_Address</td>
+            <td style="text-align:center">@Model.Employee_Contact</td>
+            <td style="text-align:center">@Model.Employee_Email</td>
+        </tr>
+    </table>
+</div>

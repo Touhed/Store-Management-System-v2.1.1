@@ -1,0 +1,80 @@
+﻿@model Store_Management_System.Areas.Payment.Models.Payment
+@{
+    ViewData["Title"] = "Add Payment";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>S_M_S</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: darkgray;align-content: center; font-family: 'Times New Roman', Times, serif;">
+    <div class="container" style="width: 40%;">
+        <form asp-area="Payment" asp-controller="Payment" asp-action="AddNewPayment" method="post">
+            <div class="text-success"><center><h3>@ViewBag.Success</h3></center></div>
+            <div asp-validation-summary="All"></div>
+            <h2 style="text-align: center;">Add New Payment</h2>
+            <hr />
+
+            <div class="form-group">
+                <label asp-for="Payment_Id"></label>
+                <input asp-for="Payment_Id" class="form-control" placeholder="Enter payment id" />
+                <span asp-validation-for="Payment_Id"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date"></label>
+                <input asp-for="Date" class="form-control" placeholder="Enter date" />
+                <span asp-validation-for="Date"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Payment_Type"></label>
+                <select asp-for="Payment_Type">
+                    <option value="">--Select--</option>
+                    <option value="Cash">Cash</option>
+                    <option value="Online">Online</option>
+                </select>
+                <span asp-validation-for="Payment_Type"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="No_Of_Items"></label>
+                <input asp-for="No_Of_Items" class="form-control" placeholder="Enter items number" />
+                <span asp-validation-for="No_Of_Items"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Percentage_Of_Vat"></label>
+                <input asp-for="Percentage_Of_Vat" class="form-control" placeholder="Enter percentage of vat" />
+                <span asp-validation-for="Percentage_Of_Vat"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount_Of_Vat"></label>
+                <input asp-for="Amount_Of_Vat" class="form-control" placeholder="Enter amount of vat" />
+                <span asp-validation-for="Amount_Of_Vat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Total_Cost"></label>
+                <input asp-for="Total_Cost" class="form-control" placeholder="Enter toatl cost" />
+                <span asp-validation-for="Total_Cost"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="P_Id" class="control-label"></label>
+                <input asp-for="P_Id" class="form-control" placeholder="Enter product id" />
+                <span asp-validation-for="P_Id"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="E_Id" class="control-label"></label>
+                <input asp-for="E_Id" class="form-control" placeholder="Enter employee id" />
+                <span asp-validation-for="E_Id"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="C_Id" class="control-label"></label>
+                <input asp-for="C_Id" class="form-control" placeholder="Enter customer id" />
+                <span asp-validation-for="C_Id"></span>
+            </div>
+
+            <input type="submit" class="btn-primary" value="Add Payment" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿@model Store_Management_System.Areas.Admin.Models.Admin
+@{
+    ViewData["Title"] = "Add New Admin";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>S_M_S</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: darkgray;align-content: center; font-family: 'Times New Roman', Times, serif; padding-bottom: 20%;">
+
+    <div class="container" style="width: 40%;">
+        <form asp-area="Admin" asp-controller="Admin" asp-action="AddNewAdmin" method="post">
+            <div class="text-success"><center><h3>@ViewBag.Success</h3></center></div>
+            <div asp-validation-summary="All"></div>
+            <h2 style="text-align: center;">Add New Admin</h2>
+            <hr />
+
+            <div class="form-group">
+                <label asp-for="AdminId"></label>
+                <input asp-for="AdminId" class="form-control" placeholder="Enter your name" />
+                <span asp-validation-for="AdminId"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" placeholder="Enter your name" />
+                <span asp-validation-for="Name"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" placeholder="Enter your email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contact"></label>
+                <input asp-for="Contact" class="form-control" placeholder="Enter your contact number" />
+                <span asp-validation-for="Contact"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Photo"></label>
+                <input type="file" asp-for="Photo" class="form-control" />
+                <span asp-validation-for="Photo"></span>
+            </div>
+
+            <input type="submit" class="btn-primary" value="Add" />
+        </form>
+    </div>
+</body>
+</html>

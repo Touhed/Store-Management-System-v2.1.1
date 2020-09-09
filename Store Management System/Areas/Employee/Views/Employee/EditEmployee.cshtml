@@ -1,0 +1,51 @@
+﻿@model Store_Management_System.Areas.Employee.Models.Employee
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>S_M_S</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: darkgray;align-content: center; font-family: 'Times New Roman', Times, serif; padding-bottom: 20%;">
+
+    <div class="container" style="width: 40%;">
+        <form asp-area="Employee" asp-controller="Employee" asp-action="EditEmployee" method="post">
+            <div class="text-success"><center><h3>@ViewBag.Success</h3></center></div>
+            <div asp-validation-summary="All"></div>
+            <h2 style="text-align: center;">Update Employee Data</h2>
+            <hr />
+            <div class="form-group">
+                <label asp-for="Employee_Id"></label>
+                <input asp-for="Employee_Id" class="form-control" placeholder="Enter Employee id" />
+                <span asp-validation-for="Employee_Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employee_Name"></label>
+                <input asp-for="Employee_Name" class="form-control" placeholder="Enter Employee name" />
+                <span asp-validation-for="Employee_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employee_Address"></label>
+                <input asp-for="Employee_Address" class="form-control" placeholder="Enter Employee address"/>
+                <span asp-validation-for="Employee_Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employee_Contact"></label>
+                <input asp-for="Employee_Contact" class="form-control" placeholder="Enter Employee contact number" />
+                <span asp-validation-for="Employee_Contact" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employee_Email"></label>
+                <input asp-for="Employee_Email" class="form-control" placeholder="Enter Employee email" />
+                <span asp-validation-for="Employee_Email" class="text-danger"></span>
+            </div>
+
+            <input type="submit" class="btn-primary" value="Update Employee" />
+        </form>
+    </div>
+</body>
+</html>

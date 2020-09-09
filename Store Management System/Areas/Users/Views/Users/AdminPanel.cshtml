@@ -1,0 +1,69 @@
+﻿@model Store_Management_System.Areas.Users.Models.Users
+@{
+    ViewData["Title"] = "Admin Page";
+   //Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<body style="background-color: darkgray; text-align: center; font-family: 'Times New Roman', Times, serif;">
+    <div class="form-group">
+        <h2 style="text-align: center;">Choose What DO You Want?</h2>
+        <hr />
+        <div class="container-fluid" >
+            <div class="row">
+                <div class="col-lg-6">
+                    <form asp-area="Admin" asp-controller="Admin" asp-action="AddNewAdmin" method="get">
+                        <button class="btn btn-primary btn-lg">Add Admin</button>
+                    </form>
+                    <br />
+                    <form asp-area="Users" asp-controller="Users" asp-action="CreateUserAccount" method="get">
+                        <button class="btn btn-primary btn-lg">Add User Account</button>
+                    </form>
+                    <br />
+                    <form asp-area="Employee" asp-controller="Employee" asp-action="AddNewEmployee" method="get">
+                        <button class="btn btn-primary btn-lg">Add New Employee</button>
+                    </form>
+                    <br />
+                    <form asp-area="Product" asp-controller="Product" asp-action="AddNewProduct" method="get">
+                        <button class="btn btn-primary btn-lg">Add New Product</button>
+                    </form>
+                    <br />
+                    <form asp-area="Customer" asp-controller="Customer" asp-action="AddNewCustomer" method="get">
+                        <button class="btn btn-primary btn-lg">Add New Customer</button>
+                    </form>
+                    <br />
+                    <form asp-area="Payment" asp-controller="Payment" asp-action="AddNewPayment" method="get">
+                        <button class="btn btn-primary btn-lg">Add New Payment</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <form asp-area="Admin" asp-controller="Admin" asp-action="ViewAdminList" method="get">
+                        <button class="btn btn-primary btn-lg">Admin List</button>
+                    </form>
+                    <br />
+                    <form asp-area="Users" asp-controller="Users" asp-action="ViewUserList" method="get">
+                        <button class="btn btn-primary btn-lg">User List</button>
+                    </form>
+                    <br />
+                    <form asp-area="Employee" asp-controller="Employee" asp-action="ViewEmployeeList" method="get">
+                        <button class="btn btn-primary btn-lg">Employee List</button>
+                    </form>
+                    <br />
+                    <form asp-area="Product" asp-controller="Product" asp-action="ViewProductList" method="get">
+                        <button class="btn btn-primary btn-lg">Product List</button>
+                    </form>
+                    <br />
+                    <form asp-area="Customer" asp-controller="Customer" asp-action="ViewCustomerList" method="get">
+                        <button class="btn btn-primary btn-lg">Customers List</button>
+                    </form>
+                    <br />
+                    <form asp-area="Payment" asp-controller="Payment" asp-action="ViewPaymentList" method="get">
+                        <button class="btn btn-primary btn-lg">Payment List</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

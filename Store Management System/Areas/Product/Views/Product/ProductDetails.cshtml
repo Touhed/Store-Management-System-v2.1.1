@@ -1,0 +1,29 @@
+﻿@model Store_Management_System.Areas.Product.Models.Product;
+@{
+    //Layout = "_LayoutForProduct";
+    ViewData["Title"] = "Product";
+}
+
+<h1 style="text-align:center">Product Information</h1>
+
+<div class="container">
+    <table border="1" class="table table-bordered" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td style="text-align:center; font-weight: bold;">Product Id</td>
+                <td style="text-align:center; font-weight: bold;">Name</td>
+                <td style="text-align:center; font-weight: bold;">Brand Name</td>
+                <td style="text-align:center; font-weight: bold;">Quantity</td>
+                <td style="text-align:center; font-weight: bold;">Price</td>
+            </tr>
+        </thead>
+       
+            <tr>
+                <td style="text-align:center">@Model.Product_Id</td>
+                <td style="text-align:center">@Model.Product_Name</td>
+                <td style="text-align:center">@Model.Brand_Name</td>
+                <td style="text-align:center">@Model.Product_Quantity</td>
+                <td style="text-align:center">@Model.Product_Price</td>
+            </tr>
+    </table>
+</div>

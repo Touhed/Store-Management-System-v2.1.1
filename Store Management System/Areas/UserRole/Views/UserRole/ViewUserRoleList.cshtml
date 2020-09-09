@@ -1,0 +1,41 @@
+﻿@model List<Store_Management_System.Areas.UserRole.Models.UserRole>
+@{
+    Layout = "_LayoutForAdmin";
+    ViewData["Title"] = "UserRole List";
+}
+
+<h1 style="text-align:center">User Role List</h1>
+
+<div class="container" style="width: 20%; text-align: left;">
+    <div class="form-group">
+        <div class="input-group-addon">
+            <form asp-area="UserRole" asp-controller="UserRole" asp-action="Search">
+                <input placeholder="Search By Id" class="form-control" name="id" />
+                <a asp-area="UserRole" asp-controller="UserRole" asp-action="Search" asp-route-id="id"><input type="submit" value="Search" /></a>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <table border="1" class="table table-bordered" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td style="text-align:center; font-weight: bold;">User Id</td>
+                <td style="text-align:center; font-weight: bold;">User Type</td>
+                <td style="text-align:center; font-weight: bold;">Action</td>
+            </tr>
+        </thead>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td style="text-align:center">@a.UserId</td>
+                <td style="text-align:center">@a.UserType</td>
+                <td style="text-align:center">
+                    <a asp-action="UserRoleDetails" asp-route-id="@a.UserId" class="btn btn-primary">Details</a>
+                    <a asp-action="EditUserRole" asp-route-id="@a.UserId" class="btn btn-primary">Edit</a>
+                    <a asp-action="DeleteUserRole" asp-route-id="@a.UserId" class="btn btn-primary">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

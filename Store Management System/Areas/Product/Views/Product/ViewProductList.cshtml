@@ -1,0 +1,48 @@
+﻿@model List<Store_Management_System.Areas.Product.Models.Product>;
+@{
+    //Layout = "_LayoutForProduct";
+    ViewData["Title"] = "Product";
+}
+
+    <h1 style="text-align:center">Product Information</h1>
+
+<div class="container" style="width: 20%;">
+    <div class="form-group">
+        <div class="input-group-addon">
+            <form asp-area="Product" asp-controller="Product" asp-action="Search">
+                <input placeholder="Search By Id" class="form-control" name="id" />
+                <a asp-area="Product" asp-controller="Product" asp-action="Search" asp-route-id="id"><input type="submit" value="Search" /></a>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <table border="1" class="table table-bordered" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td style="text-align:center; font-weight: bold;">Product Id</td>
+                <td style="text-align:center; font-weight: bold;">Name</td>
+                <td style="text-align:center; font-weight: bold;">Brand Name</td>
+                <td style="text-align:center; font-weight: bold;">Quantity</td>
+                <td style="text-align:center; font-weight: bold;">Price</td>
+                <td style="text-align:center; font-weight: bold;">Action</td>
+            </tr>
+        </thead>
+        @foreach (var f in Model)
+        {
+    <tr>
+        <td style="text-align:center">@f.Product_Id</td>
+        <td style="text-align:center">@f.Product_Name</td>
+        <td style="text-align:center">@f.Brand_Name</td>
+        <td style="text-align:center">@f.Product_Quantity</td>
+        <td style="text-align:center">@f.Product_Price</td>
+        <td style="text-align:center">
+            <a asp-action="ProductDetails" asp-route-id="@f.Product_Id" class="btn btn-primary">Details</a>
+            <a asp-action="EditProduct" asp-route-id="@f.Product_Id" class="btn btn-primary">Edit</a>
+            <a asp-action="DeleteProduct" asp-route-id="@f.Product_Id" class="btn btn-primary">Delete</a>
+
+        </td>
+    </tr>
+        }
+    </table>
+</div>

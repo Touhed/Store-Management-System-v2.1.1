@@ -1,0 +1,194 @@
+E:\Store Management System\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.deps.json
+E:\Store Management System\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.runtimeconfig.json
+E:\Store Management System\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.runtimeconfig.dev.json
+E:\Store Management System\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.dll
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.csprojAssemblyReference.cache
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.csproj.CoreCompileInputs.cache
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorAssemblyInfo.cache
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorAssemblyInfo.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.AssemblyInfoInputs.cache
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.AssemblyInfo.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.TagHelpers.input.cache
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.TagHelpers.output.cache
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorCoreGenerate.cache
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorTargetAssemblyInfo.cache
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorTargetAssemblyInfo.cs
+E:\Store Management System\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.pdb
+E:\Store Management System\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.Views.dll
+E:\Store Management System\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.Views.pdb
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AddNewAdmin.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AdminDetails.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AdminList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\DeleteAdmin.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\EditAdmin.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Search.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\ViewAdminList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\AddNewCustomer.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\CustomerDetails.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\CustomerList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\DeleteCustomer.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\EditCustomer.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\Index.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\Search.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\ViewCustomerList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\AddNewEmployee.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\DeleteEmployee.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\EditEmployee.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\EmployeeDetails.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\EmployeeList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\EmployeePanel.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\Search.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\ViewEmployeeList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\AddNewPayment.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\DeletePayment.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\EditPayment.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\Index.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\PaymentDetails.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\PaymentList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\Search.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\ViewPaymentList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\AddNewProduct.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\DeleteProduct.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\EditProduct.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\Index.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\ProductDetails.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\ProductList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\Search.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\ViewProductList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\AddNewUserRole.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\DeleteUserRole.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\EditUserRole.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\Index.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\Search.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\UserRoleDetails.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\UserRoleList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\ViewUserRoleList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\AdminPanel.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\CreateUserAccount.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\DeleteUserData.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\EditUserDetails.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\Index.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\Login.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\Search.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\UserDetails.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\UserList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\ViewUserList.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\_ViewImports.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\_ViewStart.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutForAdmin.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutForLogin.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutNew.g.cshtml.cs
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.Views.pdb
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.dll
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.pdb
+E:\Store Management System\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.csproj.CopyComplete
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.csprojAssemblyReference.cache
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorAssemblyInfo.cache
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorAssemblyInfo.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.AssemblyInfoInputs.cache
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.AssemblyInfo.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.dll
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.pdb
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\appsettings.Development.json
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\appsettings.json
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.deps.json
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.runtimeconfig.json
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.runtimeconfig.dev.json
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.dll
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.pdb
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.Views.dll
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\bin\Debug\netcoreapp2.1\Store Management System.Views.pdb
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.TagHelpers.input.cache
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.TagHelpers.output.cache
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorCoreGenerate.cache
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AddNewAdmin.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AdminDetails.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AdminList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\DeleteAdmin.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\EditAdmin.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Search.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\ViewAdminList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\AddNewCustomer.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\CustomerDetails.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\CustomerList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\DeleteCustomer.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\EditCustomer.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\Index.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\Search.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\Customer\ViewCustomerList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\AddNewEmployee.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\DeleteEmployee.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\EditEmployee.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\EmployeeDetails.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\EmployeeList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\EmployeePanel.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\Search.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Employee\Views\Employee\ViewEmployeeList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\AddNewPayment.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\DeletePayment.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\EditPayment.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\Index.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\PaymentDetails.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\PaymentList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\Receipt.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\Search.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Payment\Views\Payment\ViewPaymentList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\AddNewProduct.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\DeleteProduct.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\EditProduct.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\Index.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\ProductDetails.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\ProductList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\Search.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Product\Views\Product\ViewProductList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\AddNewUserRole.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\DeleteUserRole.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\EditUserRole.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\Index.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\Search.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\UserRoleDetails.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\UserRoleList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\UserRole\Views\UserRole\ViewUserRoleList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\AdminPanel.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\CreateUserAccount.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\DeleteUserData.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\EditUserDetails.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\Index.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\Login.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\Search.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\UserDetails.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\UserList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\ViewUserList.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\_ViewImports.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Areas\_ViewStart.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout1.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutForAdmin.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutForLogin.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutNew.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorTargetAssemblyInfo.cache
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.RazorTargetAssemblyInfo.cs
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.Views.pdb
+H:\MY BOOKS\# IUBAT\Visual Projects\Store Management System v2.1.1\Store Management System\obj\Debug\netcoreapp2.1\Store Management System.csproj.CopyComplete
